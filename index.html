@@ -13,10 +13,9 @@
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="WebPilot - Curated directory of essential tools for building international websites from scratch. Find the best website builders, SEO tools, and hosting services for global audiences.">
-    <title>WebPilot | Essential Tools for Building Global Websites</title>
+    <meta name="description" content="WebPilot - The ultimate directory of 30+ essential tools for building international websites. Compare website builders, SEO tools, hosting services, and AI solutions for global audiences.">
+    <title>WebPilot | 30+ Tools for Building Global Websites</title>
     <style>
-        /* Apple Style CSS */
         :root {
             --primary: #0071e3;
             --secondary: #1d1d1f;
@@ -64,22 +63,13 @@
             box-shadow: 0 2px 8px rgba(0,0,0,0.04);
         }
 
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 1.5rem;
-        }
-
-        h2 {
-            color: var(--primary);
-            font-size: 1.8rem;
-            margin-bottom: 1.5rem;
-        }
+        h1 { font-size: 2.5rem; margin-bottom: 1.5rem; }
+        h2 { color: var(--primary); font-size: 1.8rem; margin-bottom: 1.5rem; }
 
         .tool-card {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
             gap: 1.5rem;
-            margin-bottom: 2rem;
         }
 
         .tool-item {
@@ -108,26 +98,10 @@
         }
 
         @media (max-width: 768px) {
-            .container {
-                padding: 15px;
-            }
-            
-            h1 {
-                font-size: 2rem;
-            }
-            
-            .tool-card {
-                grid-template-columns: 1fr;
-            }
-            
-            .tool-item {
-                padding: 1rem;
-            }
-            
-            .btn {
-                padding: 12px 20px;
-                font-size: 1rem;
-            }
+            .container { padding: 15px; }
+            h1 { font-size: 2rem; }
+            h2 { font-size: 1.5rem; }
+            .tool-card { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -135,44 +109,170 @@
     <header>
         <div class="container">
             <div class="logo">WebPilot</div>
-            <p>Curated Tools for Global Website Building</p>
+            <p>30+ Essential Tools for Global Website Creation</p>
         </div>
     </header>
 
     <main class="container">
-        <!-- Website Builders Section -->
+        <!-- No-Code Builders -->
         <section class="category">
             <h2>🚀 No-Code Website Builders</h2>
             <div class="tool-card">
                 <div class="tool-item">
                     <a href="https://www.wix.com" class="tool-link">Wix</a>
-                    <p class="tool-description">Drag-and-drop editor with 500+ templates and ecommerce capabilities. Perfect for quick responsive website creation.</p>
+                    <p class="tool-description">Drag-and-drop editor with 500+ professional templates and built-in ecommerce features.</p>
                 </div>
-                <!-- Repeat for other builders -->
+                <div class="tool-item">
+                    <a href="https://webflow.com" class="tool-link">Webflow</a>
+                    <p class="tool-description">Visual CMS with clean code export, ideal for designers needing frontend control.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.squarespace.com" class="tool-link">Squarespace</a>
+                    <p class="tool-description">Award-winning templates with built-in analytics and inventory management.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.shopify.com" class="tool-link">Shopify</a>
+                    <p class="tool-description">Complete commerce platform supporting 175+ countries with localized payment gateways.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.bubble.io" class="tool-link">Bubble</a>
+                    <p class="tool-description">Build web apps without code, with database integration and API connectors.</p>
+                </div>
             </div>
         </section>
 
-        <!-- SEO & Analytics Section -->
+        <!-- SEO & Analytics -->
         <section class="category">
             <h2>📈 SEO & Analytics Tools</h2>
             <div class="tool-card">
                 <div class="tool-item">
                     <a href="https://analytics.google.com" class="tool-link">Google Analytics</a>
-                    <p class="tool-description">Free traffic analysis tool to monitor user behavior and website performance metrics.</p>
+                    <p class="tool-description">Track user behavior, conversion rates, and real-time traffic data.</p>
                 </div>
-                <!-- Repeat for other SEO tools -->
+                <div class="tool-item">
+                    <a href="https://ahrefs.com" class="tool-link">Ahrefs</a>
+                    <p class="tool-description">Complete SEO toolkit for keyword research and backlink analysis.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://search.google.com/search-console" class="tool-link">Google Search Console</a>
+                    <p class="tool-description">Monitor indexing status and optimize search presence.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://moz.com" class="tool-link">Moz Pro</a>
+                    <p class="tool-description">SEO software with rank tracking and site crawl diagnostics.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.semrush.com" class="tool-link">SEMrush</a>
+                    <p class="tool-description">All-in-one marketing toolkit for SEO, PPC and content research.</p>
+                </div>
             </div>
         </section>
 
-        <!-- Hosting Services Section -->
+        <!-- Hosting & Domains -->
         <section class="category">
             <h2>🌐 Hosting & Domain Services</h2>
             <div class="tool-card">
                 <div class="tool-item">
                     <a href="https://www.godaddy.com" class="tool-link">GoDaddy</a>
-                    <p class="tool-description">World's largest domain registrar with reliable hosting solutions and 24/7 customer support.</p>
+                    <p class="tool-description">Domain registration with 24/7 support and affordable hosting plans.</p>
                 </div>
-                <!-- Repeat for other hosting services -->
+                <div class="tool-item">
+                    <a href="https://www.bluehost.com" class="tool-link">Bluehost</a>
+                    <p class="tool-description">WordPress-optimized hosting with free SSL and domain privacy.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.cloudflare.com" class="tool-link">Cloudflare</a>
+                    <p class="tool-description">CDN and security services with DDoS protection and performance optimization.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.namecheap.com" class="tool-link">Namecheap</a>
+                    <p class="tool-description">Budget-friendly domains with free WHOIS privacy protection.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.siteground.com" class="tool-link">SiteGround</a>
+                    <p class="tool-description">High-performance hosting with automated daily backups.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Design Resources -->
+        <section class="category">
+            <h2>🎨 Design & UI Tools</h2>
+            <div class="tool-card">
+                <div class="tool-item">
+                    <a href="https://www.figma.com" class="tool-link">Figma</a>
+                    <p class="tool-description">Collaborative interface design tool with prototyping capabilities.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.canva.com" class="tool-link">Canva</a>
+                    <p class="tool-description">Create social media graphics and banners with drag-and-drop simplicity.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://undraw.co" class="tool-link">unDraw</a>
+                    <p class="tool-description">Open-source illustrations with customizable colors for web projects.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.pexels.com" class="tool-link">Pexels</a>
+                    <p class="tool-description">Royalty-free stock photos and videos for commercial use.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://tinypng.com" class="tool-link">TinyPNG</a>
+                    <p class="tool-description">Smart PNG and JPEG compression without quality loss.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Development Tools -->
+        <section class="category">
+            <h2>👨💻 Development Tools</h2>
+            <div class="tool-card">
+                <div class="tool-item">
+                    <a href="https://code.visualstudio.com" class="tool-link">VS Code</a>
+                    <p class="tool-description">Free source-code editor with built-in Git support and extensions.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://github.com/features/copilot" class="tool-link">GitHub Copilot</a>
+                    <p class="tool-description">AI pair programmer that suggests code completions.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://codepen.io" class="tool-link">CodePen</a>
+                    <p class="tool-description">Frontend development playground with live previews.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.npmjs.com" class="tool-link">npm</a>
+                    <p class="tool-description">JavaScript package manager with 1.3M+ code packages.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.postman.com" class="tool-link">Postman</a>
+                    <p class="tool-description">API development environment with automated testing.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Localization -->
+        <section class="category">
+            <h2>🌍 Localization Tools</h2>
+            <div class="tool-card">
+                <div class="tool-item">
+                    <a href="https://poeditor.com" class="tool-link">POEditor</a>
+                    <p class="tool-description">Collaborative translation platform with 300+ language support.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://weglot.com" class="tool-link">Weglot</a>
+                    <p class="tool-description">Automatic website translation with language switcher.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://www.deepl.com/translator" class="tool-link">DeepL Translator</a>
+                    <p class="tool-description">AI-powered translation tool with superior accuracy.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://stripe.com" class="tool-link">Stripe</a>
+                    <p class="tool-description">Global payment processing supporting 135+ currencies.</p>
+                </div>
+                <div class="tool-item">
+                    <a href="https://wise.com" class="tool-link">Wise</a>
+                    <p class="tool-description">Multi-currency account for international transactions.</p>
+                </div>
             </div>
         </section>
     </main>
